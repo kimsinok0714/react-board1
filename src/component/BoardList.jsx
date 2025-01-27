@@ -24,7 +24,7 @@ const BoardList = () => {
 
     const [serverData, setServerData] = useState({...initialState});
 
-    const [keyfield, setKeyfield] = useState('writer');
+    const [keyfield, setKeyfield] = useState('');
 
     const [keyword, setKeyword] = useState('');
 
